@@ -227,6 +227,14 @@
     </item>
     
     <item>
+      <title>Tribute Page</title>
+      <link>http://localhost:9126/project/tribute-page/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9126/project/tribute-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
       <link>http://localhost:9126/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
@@ -353,7 +361,7 @@
 
 
 
-&lt;div id=&#34;chart-684931725&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-982543167&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -371,7 +379,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-684931725&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-982543167&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
